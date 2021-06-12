@@ -50,7 +50,7 @@ def animate():
 #function to increment speed 
 def flick():
     state['turn']+=10
-
+#adding instruction to start the spinner
 text.penup()
 text.goto(10,-170)
 text.pendown()
