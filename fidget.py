@@ -47,9 +47,11 @@ def animate():
         state['turn']-=1
     spinner()
     win.ontimer(animate, 20)
+    
 #function to increment speed 
 def flick():
     state['turn']+=10
+    
 #adding instruction to start the spinner
 text.penup()
 text.goto(10,-170)
